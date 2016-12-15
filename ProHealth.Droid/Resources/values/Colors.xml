@@ -6,7 +6,7 @@
   <color name="colorAccent">@color/white</color>
 
   <!-- App Colors -->
-  <color name="appBlue">#63DDED</color>
+  <color name="appBlue">#00BCD4</color>
   
   <!-- White to Black -->
   <color name="white">#FFFFFF</color>
