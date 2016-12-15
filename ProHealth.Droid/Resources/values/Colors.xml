@@ -2,11 +2,12 @@
 <resources>
   <!-- General colors -->
   <color name="colorPrimary">@color/white</color>
-  <color name="colorPrimaryDark">#303030</color>
+  <color name="colorPrimaryDark">@color/appGray</color>
   <color name="colorAccent">@color/white</color>
 
   <!-- App Colors -->
   <color name="appBlue">#00BCD4</color>
+  <color name="appGray">#303030</color>
   
   <!-- White to Black -->
   <color name="white">#FFFFFF</color>

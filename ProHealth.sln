@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProHealth.Core", "ProHealth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProHealth.Droid", "ProHealth.Droid\ProHealth.Droid.csproj", "{0DD25A22-0E8C-4030-869F-752D75C46572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProHealth.iOS", "ProHealth.iOS\ProHealth.iOS.csproj", "{C408C868-CD8C-4023-9F7B-394D4B059DD9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -85,26 +83,6 @@ Global
 		{0DD25A22-0E8C-4030-869F-752D75C46572}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{0DD25A22-0E8C-4030-869F-752D75C46572}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{0DD25A22-0E8C-4030-869F-752D75C46572}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.AppStore|Any CPU.ActiveCfg = AppStore|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Debug|iPhone.Build.0 = Debug|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Release|iPhone.ActiveCfg = Release|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Release|iPhone.Build.0 = Release|iPhone
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{C408C868-CD8C-4023-9F7B-394D4B059DD9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

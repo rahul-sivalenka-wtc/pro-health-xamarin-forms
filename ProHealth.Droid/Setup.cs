@@ -15,6 +15,7 @@ using ProHealth.Core;
 using MvvmCross.Droid.Views;
 using MvvmCross.Droid.Support.V7.Fragging.Presenter;
 using MvvmCross.Platform;
+using MvvmCross.Core.Platform;
 
 namespace ProHealth.Droid
 {
