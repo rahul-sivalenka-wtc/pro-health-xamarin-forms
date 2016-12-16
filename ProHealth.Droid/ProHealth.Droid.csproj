@@ -110,6 +110,10 @@
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
       <Private>True</Private>
@@ -117,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\HomeActivity.cs" />
+    <Compile Include="Adapters\BlockAdapter.cs" />
     <Compile Include="Adapters\SchedulePagerAdapter.cs" />
     <Compile Include="Adapters\TabsFragmentPagerAdapter.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
@@ -131,10 +136,12 @@
     <Compile Include="Fragments\Schedule\RemindersFragment.cs" />
     <Compile Include="Fragments\Schedule\WorkoutFragment.cs" />
     <Compile Include="Fragments\SearchDoctorFragment.cs" />
+    <Compile Include="Helpers\ReportCategories.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
+    <Compile Include="ViewHolders\BlockViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Fonts\Pro-Health.ttf" />
@@ -158,6 +165,7 @@
     <AndroidResource Include="Resources\layout\ScheduleDietView.axml" />
     <AndroidResource Include="Resources\layout\ScheduleWorkoutView.axml" />
     <AndroidResource Include="Resources\layout\ScheduleAppointmentsView.axml" />
+    <AndroidResource Include="Resources\layout\BlockViewTemplate.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\MainView.axml">
@@ -231,6 +239,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\roundtabselector.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\records_page_pre_button.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\records_page_reports_button.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

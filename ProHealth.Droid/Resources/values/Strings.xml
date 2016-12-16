@@ -8,4 +8,6 @@
   <string name="LoginButtonText">Login</string>
   <string name="OrText">Or</string>
   <string name="RegisterButtonText">Register</string>
+  <string name="Reports">REPORTS</string>
+  <string name="Prescription">PRESCRIPTION</string>
 </resources>
