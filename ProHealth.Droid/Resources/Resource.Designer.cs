@@ -3482,14 +3482,20 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f06008b
 			public const int RegisterButton = 2131099787;
 			
-			// aapt resource value: 0x7f06009c
-			public const int ScheduleContent = 2131099804;
-			
 			// aapt resource value: 0x7f06009d
-			public const int ScheduleSlidingTabs = 2131099805;
+			public const int ScheduleContent = 2131099805;
+			
+			// aapt resource value: 0x7f06009c
+			public const int ScheduleRemindersFrame = 2131099804;
 			
 			// aapt resource value: 0x7f06009e
-			public const int ScheduleViewPager = 2131099806;
+			public const int ScheduleSlidingTabs = 2131099806;
+			
+			// aapt resource value: 0x7f06009f
+			public const int ScheduleViewPager = 2131099807;
+			
+			// aapt resource value: 0x7f0600a4
+			public const int SearchDoctorFrame = 2131099812;
 			
 			// aapt resource value: 0x7f060085
 			public const int SlidingTabs = 2131099781;
@@ -3796,6 +3802,18 @@ namespace ProHealth.Droid
 			
 			// aapt resource value: 0x7f06003b
 			public const int scrollable = 2131099707;
+			
+			// aapt resource value: 0x7f0600a3
+			public const int sdCategory = 2131099811;
+			
+			// aapt resource value: 0x7f0600a2
+			public const int sdSpecialityCount = 2131099810;
+			
+			// aapt resource value: 0x7f0600a1
+			public const int sdSpecialityLogo = 2131099809;
+			
+			// aapt resource value: 0x7f0600a0
+			public const int searchDocterRecycler = 2131099808;
 			
 			// aapt resource value: 0x7f060060
 			public const int search_badge = 2131099744;
@@ -4148,22 +4166,28 @@ namespace ProHealth.Droid
 			public const int ScheduleWorkoutView = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int SearchDoctorView = 2130903098;
+			public const int SearchDoctorListView = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int select_dialog_item_material = 2130903099;
+			public const int searchDoctorTemplate = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int select_dialog_multichoice_material = 2130903100;
+			public const int SearchDoctorView = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int select_dialog_singlechoice_material = 2130903101;
+			public const int select_dialog_item_material = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int SplashScreen = 2130903102;
+			public const int select_dialog_multichoice_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int support_simple_spinner_dropdown_item = 2130903103;
+			public const int select_dialog_singlechoice_material = 2130903103;
+			
+			// aapt resource value: 0x7f030040
+			public const int SplashScreen = 2130903104;
+			
+			// aapt resource value: 0x7f030041
+			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			static Layout()
 			{
