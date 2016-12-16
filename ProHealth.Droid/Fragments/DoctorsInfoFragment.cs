@@ -12,7 +12,7 @@ using ProHealth.Droid.Adapters;
 
 namespace ProHealth.Droid.Fragments
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.root, true)]
+    [MvxFragment(typeof(HomeViewModel), Resource.Id.ViewPager, true)]
     [Register("prohealth.droid.fragments.DoctorsInfoFragment")]
     public class DoctorsInfoFragment : BaseFragment<DoctorsInfoViewModel>
     {

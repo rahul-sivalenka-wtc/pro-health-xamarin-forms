@@ -13,7 +13,7 @@ namespace ProHealth.Core.ViewModels
 
         private void DoLogin()
         {
-            ShowViewModel<DoctorsInfoViewModel>();
+            ShowViewModel<HomeViewModel>();
         }
     }
 }
