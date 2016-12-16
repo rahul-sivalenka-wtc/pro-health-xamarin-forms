@@ -14,7 +14,7 @@ using ProHealth.Core.ViewModels;
 
 namespace ProHealth.Droid.Fragments
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.root, true)]
+    [MvxFragment(typeof(MainViewModel), Resource.Id.root, false)]
     [Register("prohealth.droid.fragments.LoginViewFragment")]
     public class LoginViewFragment : BaseFragment<LoginViewModel>
     {

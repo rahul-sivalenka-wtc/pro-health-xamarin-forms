@@ -3334,8 +3334,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f02004b
 			public const int LockIcon = 2130837579;
 			
-			// aapt resource value: 0x7f020051
-			public const int notification_template_icon_bg = 2130837585;
+			// aapt resource value: 0x7f020053
+			public const int notification_template_icon_bg = 2130837587;
 			
 			// aapt resource value: 0x7f02004c
 			public const int PersonIcon = 2130837580;
@@ -3344,13 +3344,19 @@ namespace ProHealth.Droid
 			public const int ripplestyle = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int roundbutton = 2130837582;
+			public const int ripplewhitebutton = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int tabselector = 2130837583;
+			public const int roundbutton = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int UserIcon = 2130837584;
+			public const int roundbuttonwhite = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int tabselector = 2130837585;
+			
+			// aapt resource value: 0x7f020052
+			public const int UserIcon = 2130837586;
 			
 			static Drawable()
 			{
@@ -3383,8 +3389,14 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f06000c
 			public const int MvxBindingTagUnique = 2131099660;
 			
+			// aapt resource value: 0x7f06007a
+			public const int OrText = 2131099770;
+			
 			// aapt resource value: 0x7f060077
 			public const int PasswordText = 2131099767;
+			
+			// aapt resource value: 0x7f06007b
+			public const int RegisterButton = 2131099771;
 			
 			// aapt resource value: 0x7f060075
 			public const int SlidingTabs = 2131099765;
@@ -3392,8 +3404,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060074
 			public const int ViewPager = 2131099764;
 			
-			// aapt resource value: 0x7f06007b
-			public const int action0 = 2131099771;
+			// aapt resource value: 0x7f06007d
+			public const int action0 = 2131099773;
 			
 			// aapt resource value: 0x7f06005c
 			public const int action_bar = 2131099740;
@@ -3419,8 +3431,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f06005d
 			public const int action_context_bar = 2131099741;
 			
-			// aapt resource value: 0x7f06007f
-			public const int action_divider = 2131099775;
+			// aapt resource value: 0x7f060081
+			public const int action_divider = 2131099777;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -3455,8 +3467,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060046
 			public const int buttonPanel = 2131099718;
 			
-			// aapt resource value: 0x7f06007c
-			public const int cancel_action = 2131099772;
+			// aapt resource value: 0x7f06007e
+			public const int cancel_action = 2131099774;
 			
 			// aapt resource value: 0x7f06002d
 			public const int center = 2131099693;
@@ -3470,8 +3482,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060054
 			public const int checkbox = 2131099732;
 			
-			// aapt resource value: 0x7f060082
-			public const int chronometer = 2131099778;
+			// aapt resource value: 0x7f060084
+			public const int chronometer = 2131099780;
 			
 			// aapt resource value: 0x7f060035
 			public const int clip_horizontal = 2131099701;
@@ -3518,8 +3530,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f06001d
 			public const int end = 2131099677;
 			
-			// aapt resource value: 0x7f060087
-			public const int end_padder = 2131099783;
+			// aapt resource value: 0x7f060089
+			public const int end_padder = 2131099785;
 			
 			// aapt resource value: 0x7f060025
 			public const int enterAlways = 2131099685;
@@ -3563,8 +3575,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060041
 			public const int image = 2131099713;
 			
-			// aapt resource value: 0x7f060086
-			public const int info = 2131099782;
+			// aapt resource value: 0x7f060088
+			public const int info = 2131099784;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -3572,11 +3584,11 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060031
 			public const int left = 2131099697;
 			
-			// aapt resource value: 0x7f060080
-			public const int line1 = 2131099776;
+			// aapt resource value: 0x7f060082
+			public const int line1 = 2131099778;
 			
-			// aapt resource value: 0x7f060084
-			public const int line3 = 2131099780;
+			// aapt resource value: 0x7f060086
+			public const int line3 = 2131099782;
 			
 			// aapt resource value: 0x7f06000d
 			public const int listMode = 2131099661;
@@ -3584,8 +3596,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060043
 			public const int list_item = 2131099715;
 			
-			// aapt resource value: 0x7f06007e
-			public const int media_actions = 2131099774;
+			// aapt resource value: 0x7f060080
+			public const int media_actions = 2131099776;
 			
 			// aapt resource value: 0x7f06001e
 			public const int middle = 2131099678;
@@ -3629,8 +3641,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060032
 			public const int right = 2131099698;
 			
-			// aapt resource value: 0x7f06007a
-			public const int root = 2131099770;
+			// aapt resource value: 0x7f06007c
+			public const int root = 2131099772;
 			
 			// aapt resource value: 0x7f060018
 			public const int screen = 2131099672;
@@ -3722,8 +3734,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f060033
 			public const int start = 2131099699;
 			
-			// aapt resource value: 0x7f06007d
-			public const int status_bar_latest_event_content = 2131099773;
+			// aapt resource value: 0x7f06007f
+			public const int status_bar_latest_event_content = 2131099775;
 			
 			// aapt resource value: 0x7f060067
 			public const int submit_area = 2131099751;
@@ -3731,17 +3743,17 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f06000f
 			public const int tabMode = 2131099663;
 			
-			// aapt resource value: 0x7f060085
-			public const int text = 2131099781;
+			// aapt resource value: 0x7f060087
+			public const int text = 2131099783;
 			
-			// aapt resource value: 0x7f060083
-			public const int text2 = 2131099779;
+			// aapt resource value: 0x7f060085
+			public const int text2 = 2131099781;
 			
 			// aapt resource value: 0x7f06004f
 			public const int textSpacerNoButtons = 2131099727;
 			
-			// aapt resource value: 0x7f060081
-			public const int time = 2131099777;
+			// aapt resource value: 0x7f060083
+			public const int time = 2131099779;
 			
 			// aapt resource value: 0x7f060045
 			public const int title = 2131099717;
