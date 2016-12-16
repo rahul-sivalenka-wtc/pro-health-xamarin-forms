@@ -117,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\HomeActivity.cs" />
+    <Compile Include="Adapters\SchedulePagerAdapter.cs" />
     <Compile Include="Adapters\TabsFragmentPagerAdapter.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
@@ -125,6 +126,10 @@
     <Compile Include="Fragments\ProfileFragment.cs" />
     <Compile Include="Fragments\RecordsFragment.cs" />
     <Compile Include="Fragments\ScheduleFragment.cs" />
+    <Compile Include="Fragments\Schedule\AppointmentsFragment.cs" />
+    <Compile Include="Fragments\Schedule\DietFragment.cs" />
+    <Compile Include="Fragments\Schedule\RemindersFragment.cs" />
+    <Compile Include="Fragments\Schedule\WorkoutFragment.cs" />
     <Compile Include="Fragments\SearchDoctorFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -149,6 +154,10 @@
     <AndroidResource Include="Resources\layout\RecordsView.axml" />
     <AndroidResource Include="Resources\layout\ScheduleView.axml" />
     <AndroidResource Include="Resources\layout\SearchDoctorView.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleRemindersView.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleDietView.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleWorkoutView.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleAppointmentsView.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\MainView.axml">
@@ -213,6 +222,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\roundbuttonwhite.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundtabappblue.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundtabgray.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundtabselector.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

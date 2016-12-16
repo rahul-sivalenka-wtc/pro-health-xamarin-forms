@@ -42,6 +42,10 @@
     <Compile Include="ViewModels\ProfileViewModel.cs" />
     <Compile Include="ViewModels\RecordsViewModel.cs" />
     <Compile Include="ViewModels\ScheduleViewModel.cs" />
+    <Compile Include="ViewModels\Schedule\WorkoutViewModel.cs" />
+    <Compile Include="ViewModels\Schedule\DietViewModel.cs" />
+    <Compile Include="ViewModels\Schedule\AppointmentsViewModel.cs" />
+    <Compile Include="ViewModels\Schedule\RemindersViewModel.cs" />
     <Compile Include="ViewModels\SearchDoctorViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

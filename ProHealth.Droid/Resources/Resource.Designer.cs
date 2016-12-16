@@ -3334,8 +3334,8 @@ namespace ProHealth.Droid
 			// aapt resource value: 0x7f02004b
 			public const int LockIcon = 2130837579;
 			
-			// aapt resource value: 0x7f020053
-			public const int notification_template_icon_bg = 2130837587;
+			// aapt resource value: 0x7f020056
+			public const int notification_template_icon_bg = 2130837590;
 			
 			// aapt resource value: 0x7f02004c
 			public const int PersonIcon = 2130837580;
@@ -3353,10 +3353,19 @@ namespace ProHealth.Droid
 			public const int roundbuttonwhite = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int tabselector = 2130837585;
+			public const int roundtabappblue = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int UserIcon = 2130837586;
+			public const int roundtabgray = 2130837586;
+			
+			// aapt resource value: 0x7f020053
+			public const int roundtabselector = 2130837587;
+			
+			// aapt resource value: 0x7f020054
+			public const int tabselector = 2130837588;
+			
+			// aapt resource value: 0x7f020055
+			public const int UserIcon = 2130837589;
 			
 			static Drawable()
 			{
@@ -3397,6 +3406,15 @@ namespace ProHealth.Droid
 			
 			// aapt resource value: 0x7f06007b
 			public const int RegisterButton = 2131099771;
+			
+			// aapt resource value: 0x7f06008a
+			public const int ScheduleContent = 2131099786;
+			
+			// aapt resource value: 0x7f06008b
+			public const int ScheduleSlidingTabs = 2131099787;
+			
+			// aapt resource value: 0x7f06008c
+			public const int ScheduleViewPager = 2131099788;
 			
 			// aapt resource value: 0x7f060075
 			public const int SlidingTabs = 2131099765;
@@ -3980,25 +3998,37 @@ namespace ProHealth.Droid
 			public const int RecordsView = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int ScheduleView = 2130903090;
+			public const int ScheduleAppointmentsView = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int SearchDoctorView = 2130903091;
+			public const int ScheduleDietView = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int select_dialog_item_material = 2130903092;
+			public const int ScheduleRemindersView = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int select_dialog_multichoice_material = 2130903093;
+			public const int ScheduleView = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int select_dialog_singlechoice_material = 2130903094;
+			public const int ScheduleWorkoutView = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int SplashScreen = 2130903095;
+			public const int SearchDoctorView = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int support_simple_spinner_dropdown_item = 2130903096;
+			public const int select_dialog_item_material = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int select_dialog_multichoice_material = 2130903097;
+			
+			// aapt resource value: 0x7f03003a
+			public const int select_dialog_singlechoice_material = 2130903098;
+			
+			// aapt resource value: 0x7f03003b
+			public const int SplashScreen = 2130903099;
+			
+			// aapt resource value: 0x7f03003c
+			public const int support_simple_spinner_dropdown_item = 2130903100;
 			
 			static Layout()
 			{
