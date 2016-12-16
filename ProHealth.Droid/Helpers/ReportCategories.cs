@@ -44,11 +44,11 @@ namespace ProHealth.Droid.Helpers
         public static ReportCategories[] MyReportsCategories =
         {
             new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="Dinesh" },
-            new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="Rahul" },
-            new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="veswanth" },
-            new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="kiran" },
-            new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="siva" },
-            new ReportCategories {IconId=Resource.Drawable.heart,Count=00,Name="Reddy" }
+            new ReportCategories {IconId=Resource.Drawable.heart,Count=01,Name="Rahul" },
+            new ReportCategories {IconId=Resource.Drawable.heart,Count=05,Name="veswanth" },
+            new ReportCategories {IconId=Resource.Drawable.heart,Count=03,Name="kiran" },
+            new ReportCategories {IconId=Resource.Drawable.heart,Count=07,Name="siva" },
+            new ReportCategories {IconId=Resource.Drawable.heart,Count=09,Name="Reddy" }
         };
         public CategoriesOfReports()
         {

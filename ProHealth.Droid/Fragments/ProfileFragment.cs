@@ -1,9 +1,4 @@
-﻿using System;
-using Android;
-using Android.App;
-using Android.OS;
-using Android.Views;
-using MvvmCross.Droid.Support.V7.Fragging.Fragments;
+﻿using MvvmCross.Droid.Support.V7.Fragging.Fragments;
 using ProHealth.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.Fragging.Attributes;
 using Android.Runtime;

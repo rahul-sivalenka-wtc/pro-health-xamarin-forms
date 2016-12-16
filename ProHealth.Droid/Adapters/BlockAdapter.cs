@@ -8,13 +8,14 @@ using ProHealth.Droid.ViewHolders;
 
 namespace ProHealth.Droid.Adapters
 {
-    public partial class BlockAdapter : RecyclerView.Adapter
+    public class BlockAdapter : RecyclerView.Adapter
     {
         // TODO Events region
         public event EventHandler<int> ItemClick;
 
         // TODO Field region
         public CategoriesOfReports reportCategories;
+
         public Activity activity;
 
         // TODO Properties region
@@ -27,7 +28,6 @@ namespace ProHealth.Droid.Adapters
         }
 
         // TODO Align Ctor, public , override and then private methods.
-
       
         // TODO Remove the activity from the adapter.
         public BlockAdapter(Activity activity,CategoriesOfReports reportCategories)
@@ -38,18 +38,18 @@ namespace ProHealth.Droid.Adapters
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            
                 BlockViewHolder vh = holder as BlockViewHolder;
                 vh.specialityLogo.SetImageResource(reportCategories[position].IconId);
                 vh.specialityCount.Text = reportCategories[position].Count.ToString();
-            vh.category.Text = reportCategories[position].Name;
+                vh.category.Text = reportCategories[position].Name;   
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            var itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.BlockViewTemplate, parent, false);
-            BlockViewHolder vh = new BlockViewHolder(itemView, OnClick);
-            return vh;
+           
+                var itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.BlockViewTemplate, parent, false);
+                BlockViewHolder vh = new BlockViewHolder(itemView, OnClick);
+                return vh;
         }
 
         void OnClick(int position)
