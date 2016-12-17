@@ -19,4 +19,7 @@
   <string name="RemindBeforeMealText">Remind me before meal</string>
   <string name="SubmitButtonText">Submit</string>
   <string name="CancelButtonText">Cancel</string>
+
+  <string name="Reports">REPORTS</string>
+  <string name="Prescription">PRESCRIPTION</string>
 </resources>
