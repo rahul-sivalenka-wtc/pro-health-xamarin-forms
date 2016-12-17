@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+  <ScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          style="@style/FormHeader">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CreateReminderText"/>
+      </LinearLayout>
+
+      <View style="@style/HorizontalLine"/>
+
+      <ScrollView
+          style="@style/FormContent">
+
+        <LinearLayout
+            style="@style/FormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+          <LinearLayout
+              style="@style/FormGroup"
+              android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+              <EditText
+                  android:id="@+id/InputMedicineName"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/MedicineNameText"
+                  android:inputType="text"
+                  android:maxLines="1"
+                  android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+              <android.support.design.widget.TextInputLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/InputFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputFromText"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+              </android.support.design.widget.TextInputLayout>
+
+              <android.support.design.widget.TextInputLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/InputTo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputToText"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+              </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/BreakFastSelectButton"
+                style="@style/ReminderMealTimeButtonStyle"
+                android:text="@string/BreakfastText"/>
+
+            <TextView
+                android:id="@+id/LunchSelectButton"
+                style="@style/ReminderMealTimeButtonStyle"
+                android:text="@string/LunchText"/>
+
+            <TextView
+                android:id="@+id/DinnerSelectButton"
+                style="@style/ReminderMealTimeButtonStyle"
+                android:text="@string/DinnerText"/>
+          </LinearLayout>
+
+          <android.support.v7.widget.SwitchCompat
+              android:id="@+id/BeforeMealSwitch"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="10dp"
+              android:checked="false"
+              android:text="@string/RemindBeforeMealText"/>
+        </LinearLayout>
+      </ScrollView>
+
+      <View style="@style/HorizontalLine"/>
+
+      <RelativeLayout
+          style="@style/FormFooter"
+          android:padding="10dp">
+
+        <Button
+            android:id="@+id/SubmitButton"
+            style="@style/BlackRoundButton"
+            android:layout_centerInParent="true"
+            android:text="@string/SubmitButtonText"/>
+
+        <Button
+            android:id="@+id/CancelButton"
+            style="@style/PlainRippleButton"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/SubmitButton"
+            android:layout_toRightOf="@+id/SubmitButton"
+            android:text="@string/CancelButtonText"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </ScrollView>
+
+</RelativeLayout>

@@ -121,6 +121,7 @@
     <Compile Include="Adapters\TabsFragmentPagerAdapter.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\CustomDialogFragment.cs" />
     <Compile Include="Fragments\LoginViewFragment.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Fragments\ProfileFragment.cs" />
@@ -158,6 +159,12 @@
     <AndroidResource Include="Resources\layout\ScheduleDietView.axml" />
     <AndroidResource Include="Resources\layout\ScheduleWorkoutView.axml" />
     <AndroidResource Include="Resources\layout\ScheduleAppointmentsView.axml" />
+    <AndroidResource Include="Resources\layout\ReminderItemTemplate.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddReminderDialog.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\MainView.axml">
@@ -231,6 +238,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\roundtabselector.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundbuttonappblue.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundbuttonselector_blue_black.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ripplebluebutton.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
