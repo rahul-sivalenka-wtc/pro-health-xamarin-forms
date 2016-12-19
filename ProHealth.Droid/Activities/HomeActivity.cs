@@ -1,7 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Fragment = Android.Support.V4.App.Fragment;
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Android.Support.V4.App;
 using Java.Lang;
 using Android.Support.V4.View;
 using Android.Support.Design.Widget;
@@ -23,9 +31,9 @@ namespace ProHealth.Droid.Activities
 
         Fragment[] fragments = new Fragment[] {
                 new SearchDoctorFragment(),
-                new RecordsFragment(),
+                new ProfileFragment(),
                 new ScheduleFragment(),
-                new ProfileFragment()
+                new RecordsFragment()
              };
 
         ICharSequence[] titles = CharSequence.ArrayFromStringArray(new[] {

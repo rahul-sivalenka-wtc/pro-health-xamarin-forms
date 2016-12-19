@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ProHealth.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>ProHealthiOS</AssemblyName>
+    <AssemblyName>ProHealth.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
